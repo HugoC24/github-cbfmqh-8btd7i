@@ -1,0 +1,14 @@
+---
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
+import Logo from '../assets/logo2.svg'
+import LastBlogPosts from '../components/LastBlogPosts.astro'
+---
+<BaseLayout title="Homepage">  
+  <img src={Logo} class="logofront" />
+  <br/>
+
+
+
+  <LastBlogPosts></LastBlogPosts>  
+</BaseLayout>
